@@ -15,6 +15,10 @@
 		4FDBE3762C59A5A600E384D3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDBE3752C59A5A600E384D3 /* SnapKit */; };
 		4FDBE3792C59A5BE00E384D3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDBE3782C59A5BE00E384D3 /* RxCocoa */; };
 		4FDBE37B2C59A5BE00E384D3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDBE37A2C59A5BE00E384D3 /* RxSwift */; };
+		4FDBE37F2C5A988700E384D3 /* SimpleAddingNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE37E2C5A988700E384D3 /* SimpleAddingNumbers.swift */; };
+		4FDBE3812C5A989E00E384D3 /* SimpleValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE3802C5A989E00E384D3 /* SimpleValidation.swift */; };
+		4FDBE3832C5A98AA00E384D3 /* SimpleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE3822C5A98AA00E384D3 /* SimpleTableView.swift */; };
+		4FDBE3852C5AD6B100E384D3 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE3842C5AD6B100E384D3 /* TabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		4FDBE3692C59A24D00E384D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FDBE36C2C59A24D00E384D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FDBE36E2C59A24D00E384D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDBE37E2C5A988700E384D3 /* SimpleAddingNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAddingNumbers.swift; sourceTree = "<group>"; };
+		4FDBE3802C5A989E00E384D3 /* SimpleValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidation.swift; sourceTree = "<group>"; };
+		4FDBE3822C5A98AA00E384D3 /* SimpleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableView.swift; sourceTree = "<group>"; };
+		4FDBE3842C5AD6B100E384D3 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				4FDBE3602C59A24B00E384D3 /* AppDelegate.swift */,
 				4FDBE3622C59A24B00E384D3 /* SceneDelegate.swift */,
 				4FDBE3642C59A24B00E384D3 /* ViewController.swift */,
+				4FDBE3842C5AD6B100E384D3 /* TabbarController.swift */,
+				4FDBE37E2C5A988700E384D3 /* SimpleAddingNumbers.swift */,
+				4FDBE3802C5A989E00E384D3 /* SimpleValidation.swift */,
+				4FDBE3822C5A98AA00E384D3 /* SimpleTableView.swift */,
 				4FDBE3692C59A24D00E384D3 /* Assets.xcassets */,
 				4FDBE36B2C59A24D00E384D3 /* LaunchScreen.storyboard */,
 				4FDBE36E2C59A24D00E384D3 /* Info.plist */,
@@ -150,8 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FDBE3652C59A24B00E384D3 /* ViewController.swift in Sources */,
+				4FDBE3832C5A98AA00E384D3 /* SimpleTableView.swift in Sources */,
+				4FDBE37F2C5A988700E384D3 /* SimpleAddingNumbers.swift in Sources */,
 				4FDBE3612C59A24B00E384D3 /* AppDelegate.swift in Sources */,
+				4FDBE3812C5A989E00E384D3 /* SimpleValidation.swift in Sources */,
 				4FDBE3632C59A24B00E384D3 /* SceneDelegate.swift in Sources */,
+				4FDBE3852C5AD6B100E384D3 /* TabbarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
